@@ -8,6 +8,8 @@
         <ToolbarItem Text="Add" Clicked="ToolbarItem_Clicked" />
         <ToolbarItem Text="Delete" Clicked="ToolbarItem_Clicked" />
         <ToolbarItem Text="Edit" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="View" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Help" Clicked="ToolbarItem_Clicked" />
     </TabbedPage.ToolbarItems>
     <!-- add the zodiac pages in the tabs -->
     <ZodiacSigns:Libra Title="Libra"/>
