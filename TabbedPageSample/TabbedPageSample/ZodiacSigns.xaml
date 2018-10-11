@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ZodiacSigns="clr-namespace:TabbedPageSample"
+             x:Class="TabbedPageSample.ZodiacSigns">
+    <!-- define the tool bar items, each page has them available -->
+    <TabbedPage.ToolbarItems >
+        <ToolbarItem Text="Add" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Delete" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Edit" Clicked="ToolbarItem_Clicked" />
+    </TabbedPage.ToolbarItems>
+    <!-- add the zodiac pages in the tabs -->
+    <ZodiacSigns:Libra Title="Libra"/>
+    <ZodiacSigns:Saggitarius Title="Saggitarius"/>
+    <ZodiacSigns:Scorpio Title="Scorpio"/>
+
+
+</TabbedPage>
